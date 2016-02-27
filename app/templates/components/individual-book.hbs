@@ -1,0 +1,8 @@
+<button {{action "toggleStarred"}}>
+	<h4>{{book.title}}</h4>
+	{{#if book.starred}}
+		<img src="https://cdn0.iconfinder.com/data/icons/IS_Christmas/512/christmas_star.png" alt="recommended" height="40px">
+	{{/if}}
+	<p><img src={{book.image}} alt={{book.type}} height="200px"></p>
+	<p>Author: {{book.author}}</p>
+</button>

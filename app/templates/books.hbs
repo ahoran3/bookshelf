@@ -1,0 +1,7 @@
+<h2>Bookshelf library</h2>
+{{#each model as |bookUnit|}}
+	{{individual-book book=bookUnit}}
+	<br/>
+	<br/>
+{{/each}}
+{{#link-to "index"}}Home{{/link-to}}
