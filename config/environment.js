@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'bookcase',
+    modulePrefix: 'bookshelf',
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
